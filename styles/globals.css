@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Additional global styles */
+body {
+  @apply bg-gray-50 text-gray-900;
+}
+
+/* Link styles */
+a {
+  @apply text-primary underline;
+}
+a:hover {
+  @apply text-secondary;
+}

@@ -1,0 +1,5672 @@
+{
+  "config": {
+    "configFile": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/playwright.config.js",
+    "rootDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {},
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "html",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "reports/playwright-results.json"
+        }
+      ],
+      [
+        "junit",
+        {
+          "outputFile": "reports/playwright-results.xml"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 300000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "firefox",
+        "name": "firefox",
+        "testDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "webkit",
+        "name": "webkit",
+        "testDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile Chrome",
+        "name": "Mobile Chrome",
+        "testDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Mobile Safari",
+        "name": "Mobile Safari",
+        "testDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Microsoft Edge",
+        "name": "Microsoft Edge",
+        "testDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      },
+      {
+        "outputDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "Google Chrome",
+        "name": "Google Chrome",
+        "testDir": "/Users/rebeccacamejo/Downloads/momentum_mvp/momentum_frontend/e2e",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "updateSourceMethod": "patch",
+    "version": "1.55.1",
+    "workers": 4,
+    "webServer": {
+      "command": "npm run dev",
+      "url": "http://localhost:3000",
+      "reuseExistingServer": true,
+      "timeout": 120000
+    }
+  },
+  "suites": [
+    {
+      "title": "auth.spec.js",
+      "file": "auth.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Authentication Flow",
+          "file": "auth.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display sign in page correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-28b25b460fb1e8a496bc",
+              "file": "auth.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-15451c313b79e1aaf75e",
+              "file": "auth.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "should handle invalid email validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-50581d5de3aa4c94d809",
+              "file": "auth.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-8defed17b536c97edeca",
+              "file": "auth.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle Google OAuth button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-b108bd2c2312623bb7cd",
+              "file": "auth.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should redirect authenticated users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-456219f8ea6b61a31ab9",
+              "file": "auth.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-52dd00cface72602e2c9",
+              "file": "auth.spec.js",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-610cd7468b10e30fddbd",
+              "file": "auth.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-28d4a580d3a684204a85",
+              "file": "auth.spec.js",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile devices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-a471d076a5b1a026a506",
+              "file": "auth.spec.js",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "should display sign in page correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-230a0669f17669fe36d2",
+              "file": "auth.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-e42a6e2a94e1177c46c8",
+              "file": "auth.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "should handle invalid email validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-b0c91796b5b8e91b04b6",
+              "file": "auth.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-95b7414f2c9c26333476",
+              "file": "auth.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle Google OAuth button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-f5a81dacc109fde21b9f",
+              "file": "auth.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should redirect authenticated users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-e2efa0ca140a3aea0ac4",
+              "file": "auth.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-680612aaf70a5c617d33",
+              "file": "auth.spec.js",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-b4ab2a7c09cf2dc3f17b",
+              "file": "auth.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-1ad19727d918dc4f0547",
+              "file": "auth.spec.js",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile devices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-918dc11eb5a17e62bed8",
+              "file": "auth.spec.js",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "should display sign in page correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-add95ce0b094e6918434",
+              "file": "auth.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-292b94c621cf4fd28ca8",
+              "file": "auth.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "should handle invalid email validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-575dd67c1fed9984bb2d",
+              "file": "auth.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-a107b9edad2ca05fd97c",
+              "file": "auth.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle Google OAuth button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-f72c39ba061bf51e9ca1",
+              "file": "auth.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should redirect authenticated users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-2067b7ae336aa28ea1ee",
+              "file": "auth.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-7d5fb0f45e92172a4d6c",
+              "file": "auth.spec.js",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-a7518c92bc2c4ec962fd",
+              "file": "auth.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-a8a324b9804b6c26ad96",
+              "file": "auth.spec.js",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile devices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-25b1b9f920188b823978",
+              "file": "auth.spec.js",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "should display sign in page correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-7b14f29fdfb077525b7b",
+              "file": "auth.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-d3e9c43664a02809dedf",
+              "file": "auth.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "should handle invalid email validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-46208f86505f7749f8a2",
+              "file": "auth.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-a796cc5e252bf616744f",
+              "file": "auth.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle Google OAuth button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-b406bf7c56a59c7bca72",
+              "file": "auth.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should redirect authenticated users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-77aa6940d93131526118",
+              "file": "auth.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-af27be0269cd198debe2",
+              "file": "auth.spec.js",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-76e296bf8fb77c8c145e",
+              "file": "auth.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-277ca5303a3e451dc6ae",
+              "file": "auth.spec.js",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile devices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-fc9b4dce52b4b822f9ee",
+              "file": "auth.spec.js",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "should display sign in page correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-889081b542f3f0bd9734",
+              "file": "auth.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-5a738b3bdf4876d3c33a",
+              "file": "auth.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "should handle invalid email validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-6baf76b45c9515da735f",
+              "file": "auth.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-eab91bb81624392a3ab1",
+              "file": "auth.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle Google OAuth button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-8cf88f292d7aca26a051",
+              "file": "auth.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should redirect authenticated users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-1227b4ee5e607c7c948f",
+              "file": "auth.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-b7b34fc5ad6c467d260c",
+              "file": "auth.spec.js",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-b6b04dd03e02eb7bd547",
+              "file": "auth.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-26b4c0d7456a9f744f07",
+              "file": "auth.spec.js",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile devices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-2342873d0ff1da27eba9",
+              "file": "auth.spec.js",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "should display sign in page correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-b931f83f43f2d43de8e4",
+              "file": "auth.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-4b3562faf4e14a83292c",
+              "file": "auth.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "should handle invalid email validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-97684cd952db4c80b06c",
+              "file": "auth.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-736175104a85805415e3",
+              "file": "auth.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle Google OAuth button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-2118ea82849ad489311e",
+              "file": "auth.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should redirect authenticated users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-f59e7783a3392785fefd",
+              "file": "auth.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-addad6366eb7a75e9f82",
+              "file": "auth.spec.js",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-3b826e3ab7c4f865e814",
+              "file": "auth.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-d7753d7373d707b1706c",
+              "file": "auth.spec.js",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile devices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-c96f28b94848dacf2bee",
+              "file": "auth.spec.js",
+              "line": 174,
+              "column": 7
+            },
+            {
+              "title": "should display sign in page correctly",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-c94dc4c7ad8f587bcdd5",
+              "file": "auth.spec.js",
+              "line": 9,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link flow",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-96e21913bc525f7582be",
+              "file": "auth.spec.js",
+              "line": 17,
+              "column": 7
+            },
+            {
+              "title": "should handle invalid email validation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-89080139701ba7fecf7e",
+              "file": "auth.spec.js",
+              "line": 38,
+              "column": 7
+            },
+            {
+              "title": "should handle magic link errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-4c0c645a7dab5bcf7e5d",
+              "file": "auth.spec.js",
+              "line": 48,
+              "column": 7
+            },
+            {
+              "title": "should handle Google OAuth button",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-5b197ffe772769442e0f",
+              "file": "auth.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should redirect authenticated users",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-0cbcd902558b9c4bd9eb",
+              "file": "auth.spec.js",
+              "line": 93,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-34074f52614f166cdc10",
+              "file": "auth.spec.js",
+              "line": 108,
+              "column": 7
+            },
+            {
+              "title": "should handle auth callback errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-8a04099bc0d1265e39f2",
+              "file": "auth.spec.js",
+              "line": 134,
+              "column": 7
+            },
+            {
+              "title": "should be accessible",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-731636bfb1ff7fdb5a8d",
+              "file": "auth.spec.js",
+              "line": 152,
+              "column": 7
+            },
+            {
+              "title": "should work on mobile devices",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "d5ed79a6b333c2ba7209-bdc3e9ed6b2494e7636a",
+              "file": "auth.spec.js",
+              "line": 174,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "dashboard-navigation.spec.js",
+      "file": "dashboard-navigation.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Dashboard Navigation",
+          "file": "dashboard-navigation.spec.js",
+          "line": 3,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should display dashboard with user data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-c5baf4564f9a0c26d404",
+              "file": "dashboard-navigation.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should navigate to create deliverable page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-6a08bca6074a9f6aa5dc",
+              "file": "dashboard-navigation.spec.js",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "should navigate to profile page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-23343c60c264644c1640",
+              "file": "dashboard-navigation.spec.js",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should navigate to settings page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-3c1680733c4b9514ef25",
+              "file": "dashboard-navigation.spec.js",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should display organizations section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-bfa59d0735c11e8a2bb8",
+              "file": "dashboard-navigation.spec.js",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "should display deliverables list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-0a15398c0d3211190aba",
+              "file": "dashboard-navigation.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should navigate to individual deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-be73932c7759d29f19e0",
+              "file": "dashboard-navigation.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-af9e220cee4d0d770325",
+              "file": "dashboard-navigation.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should handle navbar navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-ff136663566393bbab13",
+              "file": "dashboard-navigation.spec.js",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "should show user menu and sign out",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-ca6cb36e19c9ee1e4590",
+              "file": "dashboard-navigation.spec.js",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-810a8a26af65d1221531",
+              "file": "dashboard-navigation.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-41ebbd0dadb6501af92a",
+              "file": "dashboard-navigation.spec.js",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "should handle API errors gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-e448e27852accac62481",
+              "file": "dashboard-navigation.spec.js",
+              "line": 262,
+              "column": 7
+            },
+            {
+              "title": "should search/filter deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-33dc3a031740973bf78c",
+              "file": "dashboard-navigation.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-5cef0160df34932ab223",
+              "file": "dashboard-navigation.spec.js",
+              "line": 299,
+              "column": 7
+            },
+            {
+              "title": "should maintain state on page refresh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-5d03f5c9730dec660bf5",
+              "file": "dashboard-navigation.spec.js",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "should display dashboard with user data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-1cacd2f199ab631b648d",
+              "file": "dashboard-navigation.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should navigate to create deliverable page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-6b7f5e0175a60d2dcf1d",
+              "file": "dashboard-navigation.spec.js",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "should navigate to profile page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-2e203b745670679bee4e",
+              "file": "dashboard-navigation.spec.js",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should navigate to settings page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-a08719d8f8f5f182db2b",
+              "file": "dashboard-navigation.spec.js",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should display organizations section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-31265b05eb573e44fec1",
+              "file": "dashboard-navigation.spec.js",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "should display deliverables list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-12cb7dd952e7f1550b72",
+              "file": "dashboard-navigation.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should navigate to individual deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-5958bc56425da2b0d140",
+              "file": "dashboard-navigation.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-cfc6d426a9663c11a278",
+              "file": "dashboard-navigation.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should handle navbar navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-dc0701e961a8cc8866ee",
+              "file": "dashboard-navigation.spec.js",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "should show user menu and sign out",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-fe5dd392ffd9ccf7c12f",
+              "file": "dashboard-navigation.spec.js",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-c707a5b093249b3723af",
+              "file": "dashboard-navigation.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-e1f78cac74e376e181fa",
+              "file": "dashboard-navigation.spec.js",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "should handle API errors gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-9cd95665aa1f7b0e4fa1",
+              "file": "dashboard-navigation.spec.js",
+              "line": 262,
+              "column": 7
+            },
+            {
+              "title": "should search/filter deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-87acb32a636704107ede",
+              "file": "dashboard-navigation.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-63a01256383bb6535a45",
+              "file": "dashboard-navigation.spec.js",
+              "line": 299,
+              "column": 7
+            },
+            {
+              "title": "should maintain state on page refresh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-31180175906b9e8acd2a",
+              "file": "dashboard-navigation.spec.js",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "should display dashboard with user data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-46dff01a21e0841816f7",
+              "file": "dashboard-navigation.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should navigate to create deliverable page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-f43e018eec7bb9b1382a",
+              "file": "dashboard-navigation.spec.js",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "should navigate to profile page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-23f355daa0124d575949",
+              "file": "dashboard-navigation.spec.js",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should navigate to settings page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-b32d0a1c73bf7df2f2c5",
+              "file": "dashboard-navigation.spec.js",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should display organizations section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-8dcf4f6a26ae41efa58d",
+              "file": "dashboard-navigation.spec.js",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "should display deliverables list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-13c5958d73595dab6a13",
+              "file": "dashboard-navigation.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should navigate to individual deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-799070b673ba58cb78d3",
+              "file": "dashboard-navigation.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-34ac75bc31b17c40c0fe",
+              "file": "dashboard-navigation.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should handle navbar navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-31ef386da8db312c0772",
+              "file": "dashboard-navigation.spec.js",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "should show user menu and sign out",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-b04fe96457256cae499a",
+              "file": "dashboard-navigation.spec.js",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-d9d5a741f04cc2ecce40",
+              "file": "dashboard-navigation.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-845ee13ba3fc80de64bf",
+              "file": "dashboard-navigation.spec.js",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "should handle API errors gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-491dd530ff292973c7b2",
+              "file": "dashboard-navigation.spec.js",
+              "line": 262,
+              "column": 7
+            },
+            {
+              "title": "should search/filter deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-361c1415b1074b1c698b",
+              "file": "dashboard-navigation.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-f2d0ea86ddf294d341d7",
+              "file": "dashboard-navigation.spec.js",
+              "line": 299,
+              "column": 7
+            },
+            {
+              "title": "should maintain state on page refresh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-d69d61a93a62bca9fd86",
+              "file": "dashboard-navigation.spec.js",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "should display dashboard with user data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-0dc6ea360bf957cdb173",
+              "file": "dashboard-navigation.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should navigate to create deliverable page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-b1b92eff5ea1ad1e1536",
+              "file": "dashboard-navigation.spec.js",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "should navigate to profile page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-261f59f24f1d83488907",
+              "file": "dashboard-navigation.spec.js",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should navigate to settings page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-62b2715c4fe34f3902c8",
+              "file": "dashboard-navigation.spec.js",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should display organizations section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-f9dc72f8e9304c9c7ead",
+              "file": "dashboard-navigation.spec.js",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "should display deliverables list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-fa92ef086838adcb9bdf",
+              "file": "dashboard-navigation.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should navigate to individual deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-5a89cdf5f9ebacfefc3a",
+              "file": "dashboard-navigation.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-68b3a8ec667d0c32288a",
+              "file": "dashboard-navigation.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should handle navbar navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-e6d5b0ded288a8d429b1",
+              "file": "dashboard-navigation.spec.js",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "should show user menu and sign out",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-4209021160632aec0681",
+              "file": "dashboard-navigation.spec.js",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-88112b6868d16bd6423e",
+              "file": "dashboard-navigation.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-d6fdfb0bceb58a9c52b1",
+              "file": "dashboard-navigation.spec.js",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "should handle API errors gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-bd533f8867fbfc415084",
+              "file": "dashboard-navigation.spec.js",
+              "line": 262,
+              "column": 7
+            },
+            {
+              "title": "should search/filter deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-ad8571c0bbb633e430b0",
+              "file": "dashboard-navigation.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-5f998725934798aba927",
+              "file": "dashboard-navigation.spec.js",
+              "line": 299,
+              "column": 7
+            },
+            {
+              "title": "should maintain state on page refresh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-b5ea42bc16585ee936ac",
+              "file": "dashboard-navigation.spec.js",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "should display dashboard with user data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-db745182ff495dbfdd18",
+              "file": "dashboard-navigation.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should navigate to create deliverable page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-fa38849b6caaf3d7e44e",
+              "file": "dashboard-navigation.spec.js",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "should navigate to profile page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-1b5133b90b86e37dfaf5",
+              "file": "dashboard-navigation.spec.js",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should navigate to settings page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-edcf45ddfeb61c939623",
+              "file": "dashboard-navigation.spec.js",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should display organizations section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-d770c37a1e2648e88718",
+              "file": "dashboard-navigation.spec.js",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "should display deliverables list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-16a0221e00911d16c9a4",
+              "file": "dashboard-navigation.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should navigate to individual deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-1afc256c2a3f6c114ced",
+              "file": "dashboard-navigation.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-3e8b17c925ecdd2ca786",
+              "file": "dashboard-navigation.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should handle navbar navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-acf9d681a701e6d1736b",
+              "file": "dashboard-navigation.spec.js",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "should show user menu and sign out",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-05152842106ecd0cd884",
+              "file": "dashboard-navigation.spec.js",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-fc2b0149d4e1c5e08f44",
+              "file": "dashboard-navigation.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-dd2e674478f235f6119b",
+              "file": "dashboard-navigation.spec.js",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "should handle API errors gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-31088aabf9c6100dade0",
+              "file": "dashboard-navigation.spec.js",
+              "line": 262,
+              "column": 7
+            },
+            {
+              "title": "should search/filter deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-7760508d4aa8bb869df3",
+              "file": "dashboard-navigation.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-3c70b64818e6d19643c3",
+              "file": "dashboard-navigation.spec.js",
+              "line": 299,
+              "column": 7
+            },
+            {
+              "title": "should maintain state on page refresh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-2681dde8adc64cbb5118",
+              "file": "dashboard-navigation.spec.js",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "should display dashboard with user data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-23e20fa07d543687ac3b",
+              "file": "dashboard-navigation.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should navigate to create deliverable page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-1f97684ced0efbb65cba",
+              "file": "dashboard-navigation.spec.js",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "should navigate to profile page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-938e6dc5064798ab41d2",
+              "file": "dashboard-navigation.spec.js",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should navigate to settings page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-b15ff7fbdd307533b701",
+              "file": "dashboard-navigation.spec.js",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should display organizations section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-f78c788b1efb67f0163d",
+              "file": "dashboard-navigation.spec.js",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "should display deliverables list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-95c980fa8740964f88d2",
+              "file": "dashboard-navigation.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should navigate to individual deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-f2e1f8835e5f5e5162d9",
+              "file": "dashboard-navigation.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-290ffd740e1eed9bbd3a",
+              "file": "dashboard-navigation.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should handle navbar navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-b4d58ec9f797a128dc08",
+              "file": "dashboard-navigation.spec.js",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "should show user menu and sign out",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-60ed36a440252deb8160",
+              "file": "dashboard-navigation.spec.js",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-d8bf4d77592cd3218b09",
+              "file": "dashboard-navigation.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-7dcea9dc4380adfef3d7",
+              "file": "dashboard-navigation.spec.js",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "should handle API errors gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-1eea6409e72979c15358",
+              "file": "dashboard-navigation.spec.js",
+              "line": 262,
+              "column": 7
+            },
+            {
+              "title": "should search/filter deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-f950fde3f7f97b4e7962",
+              "file": "dashboard-navigation.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-2e1d101a3e880207b3c6",
+              "file": "dashboard-navigation.spec.js",
+              "line": 299,
+              "column": 7
+            },
+            {
+              "title": "should maintain state on page refresh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-590e6b284281b1e07af8",
+              "file": "dashboard-navigation.spec.js",
+              "line": 312,
+              "column": 7
+            },
+            {
+              "title": "should display dashboard with user data",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-1c53212a53a01e10f953",
+              "file": "dashboard-navigation.spec.js",
+              "line": 66,
+              "column": 7
+            },
+            {
+              "title": "should navigate to create deliverable page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-2cfa525f1468f709f937",
+              "file": "dashboard-navigation.spec.js",
+              "line": 81,
+              "column": 7
+            },
+            {
+              "title": "should navigate to profile page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-d28444e2900a9c3ee61c",
+              "file": "dashboard-navigation.spec.js",
+              "line": 89,
+              "column": 7
+            },
+            {
+              "title": "should navigate to settings page",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-b4aa8541fe2d1fdade86",
+              "file": "dashboard-navigation.spec.js",
+              "line": 97,
+              "column": 7
+            },
+            {
+              "title": "should display organizations section",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-a68485971f3e0c6fc509",
+              "file": "dashboard-navigation.spec.js",
+              "line": 105,
+              "column": 7
+            },
+            {
+              "title": "should display deliverables list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-709cc1b614bd840f8694",
+              "file": "dashboard-navigation.spec.js",
+              "line": 114,
+              "column": 7
+            },
+            {
+              "title": "should navigate to individual deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-d0dd872b034f89c96c79",
+              "file": "dashboard-navigation.spec.js",
+              "line": 126,
+              "column": 7
+            },
+            {
+              "title": "should show empty state when no deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-986cf4cb9e17c23b9156",
+              "file": "dashboard-navigation.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should handle navbar navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-67154f4fcf10d9ab24fa",
+              "file": "dashboard-navigation.spec.js",
+              "line": 168,
+              "column": 7
+            },
+            {
+              "title": "should show user menu and sign out",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-57f96f1d491f0d08f33c",
+              "file": "dashboard-navigation.spec.js",
+              "line": 183,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-ea21e447a8a33452ce4e",
+              "file": "dashboard-navigation.spec.js",
+              "line": 211,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-c2f818c3a46900ee7265",
+              "file": "dashboard-navigation.spec.js",
+              "line": 236,
+              "column": 7
+            },
+            {
+              "title": "should handle API errors gracefully",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-78b96dc5492a4c4ca589",
+              "file": "dashboard-navigation.spec.js",
+              "line": 262,
+              "column": 7
+            },
+            {
+              "title": "should search/filter deliverables",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-6f6ceb67c8511cf558ba",
+              "file": "dashboard-navigation.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle keyboard navigation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-41baede9a932d61f109e",
+              "file": "dashboard-navigation.spec.js",
+              "line": 299,
+              "column": 7
+            },
+            {
+              "title": "should maintain state on page refresh",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "636f4ed29453469acd0f-3725a7d3a1462d00e027",
+              "file": "dashboard-navigation.spec.js",
+              "line": 312,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "deliverable-flow.spec.js",
+      "file": "deliverable-flow.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "Complete Deliverable Creation Flow",
+          "file": "deliverable-flow.spec.js",
+          "line": 4,
+          "column": 6,
+          "specs": [
+            {
+              "title": "should navigate to new deliverable page from dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-ed1b1a5079247a627151",
+              "file": "deliverable-flow.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should display new deliverable form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-96ee2fb5552163a02dc7",
+              "file": "deliverable-flow.spec.js",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload and deliverable creation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-c938762609a58fc3b239",
+              "file": "deliverable-flow.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-930246de7d3f8acc40fe",
+              "file": "deliverable-flow.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-1c2deabccdb8ed4053c9",
+              "file": "deliverable-flow.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "should generate deliverable from text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-304343711fcc63e86ce5",
+              "file": "deliverable-flow.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should display deliverable content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-e59d3bf60aab18116e9c",
+              "file": "deliverable-flow.spec.js",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "should handle PDF download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-42b7a241674ad3f16a21",
+              "file": "deliverable-flow.spec.js",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "should navigate back to dashboard from deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-3dbcf72bdfb93d875c0e",
+              "file": "deliverable-flow.spec.js",
+              "line": 221,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable in dashboard list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-7356dac3e33981974c40",
+              "file": "deliverable-flow.spec.js",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "should handle brand customization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-8d5553258f3460cc3ae3",
+              "file": "deliverable-flow.spec.js",
+              "line": 246,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-76ba5092c58c22a4e82a",
+              "file": "deliverable-flow.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-20170bbd41aa9f70b7ad",
+              "file": "deliverable-flow.spec.js",
+              "line": 297,
+              "column": 7
+            },
+            {
+              "title": "should navigate to new deliverable page from dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-bd7167b0849a21a7ef11",
+              "file": "deliverable-flow.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should display new deliverable form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-73d2342b48442cb9f0f9",
+              "file": "deliverable-flow.spec.js",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload and deliverable creation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-9349d043e65a44758c81",
+              "file": "deliverable-flow.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-a2801c1c6bffe38779b8",
+              "file": "deliverable-flow.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-eaf811509bd668eccdea",
+              "file": "deliverable-flow.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "should generate deliverable from text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-c3e6dea496bac8c69b88",
+              "file": "deliverable-flow.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should display deliverable content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-4b35ce54ec2d6e351786",
+              "file": "deliverable-flow.spec.js",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "should handle PDF download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-bdf92e4a882c41b54584",
+              "file": "deliverable-flow.spec.js",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "should navigate back to dashboard from deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-9a9332733e27cb95d2e7",
+              "file": "deliverable-flow.spec.js",
+              "line": 221,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable in dashboard list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-59c549f4952b1b9da650",
+              "file": "deliverable-flow.spec.js",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "should handle brand customization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-b2394a04c1c69e085eed",
+              "file": "deliverable-flow.spec.js",
+              "line": 246,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-794b7e88f181f4fa5320",
+              "file": "deliverable-flow.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "firefox",
+                  "projectName": "firefox",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-6f2794aa00bd595d321c",
+              "file": "deliverable-flow.spec.js",
+              "line": 297,
+              "column": 7
+            },
+            {
+              "title": "should navigate to new deliverable page from dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-8b5170d108df3bf3a88e",
+              "file": "deliverable-flow.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should display new deliverable form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-ff39d37da07a69b54270",
+              "file": "deliverable-flow.spec.js",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload and deliverable creation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-e116203bf35a6ba66dea",
+              "file": "deliverable-flow.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-e068990e3c20e472364e",
+              "file": "deliverable-flow.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-5bce667872b28f289111",
+              "file": "deliverable-flow.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "should generate deliverable from text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-79fc69ce3fc5030d0394",
+              "file": "deliverable-flow.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should display deliverable content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-99cca9c578a09a5c5a09",
+              "file": "deliverable-flow.spec.js",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "should handle PDF download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-69cc3dcc138aff275798",
+              "file": "deliverable-flow.spec.js",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "should navigate back to dashboard from deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-a9cdd90d903e914c9b3b",
+              "file": "deliverable-flow.spec.js",
+              "line": 221,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable in dashboard list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-04dfc65721e36ed1398b",
+              "file": "deliverable-flow.spec.js",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "should handle brand customization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-e5117d2408aeeef7eddb",
+              "file": "deliverable-flow.spec.js",
+              "line": 246,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-078eb3db93ac02755577",
+              "file": "deliverable-flow.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "webkit",
+                  "projectName": "webkit",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-f77206d61414342eb2ca",
+              "file": "deliverable-flow.spec.js",
+              "line": 297,
+              "column": 7
+            },
+            {
+              "title": "should navigate to new deliverable page from dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-fee91f2e6083c69ba755",
+              "file": "deliverable-flow.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should display new deliverable form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-6d0994ce97ecacda7543",
+              "file": "deliverable-flow.spec.js",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload and deliverable creation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-3db9121590f6528b8162",
+              "file": "deliverable-flow.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-d609aa0d0f517dbcb984",
+              "file": "deliverable-flow.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-ba0a7cfe7585fb41d367",
+              "file": "deliverable-flow.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "should generate deliverable from text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-edb42e3fc1f05cb594ff",
+              "file": "deliverable-flow.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should display deliverable content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-f5783be967fd70e9ecd5",
+              "file": "deliverable-flow.spec.js",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "should handle PDF download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-bbbf8e8f2573e46f3558",
+              "file": "deliverable-flow.spec.js",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "should navigate back to dashboard from deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-5120728b6c1287901543",
+              "file": "deliverable-flow.spec.js",
+              "line": 221,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable in dashboard list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-52bcd144b05d73af92b6",
+              "file": "deliverable-flow.spec.js",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "should handle brand customization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-1cd39b41c99f62160013",
+              "file": "deliverable-flow.spec.js",
+              "line": 246,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-75b9c51b4183d7f2a4c4",
+              "file": "deliverable-flow.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Chrome",
+                  "projectName": "Mobile Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-4c1f70ac59060d43b8db",
+              "file": "deliverable-flow.spec.js",
+              "line": 297,
+              "column": 7
+            },
+            {
+              "title": "should navigate to new deliverable page from dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-94e32af50d63de18c87c",
+              "file": "deliverable-flow.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should display new deliverable form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-136d114890b523430c08",
+              "file": "deliverable-flow.spec.js",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload and deliverable creation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-c9d6480b6f642582feb3",
+              "file": "deliverable-flow.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-453ff9a688c48ffb4db6",
+              "file": "deliverable-flow.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-5eeb789510dbd18b6507",
+              "file": "deliverable-flow.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "should generate deliverable from text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-d1647471671c90d67a61",
+              "file": "deliverable-flow.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should display deliverable content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-3167fd593287b3e372d6",
+              "file": "deliverable-flow.spec.js",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "should handle PDF download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-45fdfda77d442e76ebc1",
+              "file": "deliverable-flow.spec.js",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "should navigate back to dashboard from deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-3a7575ebab43aae3a00a",
+              "file": "deliverable-flow.spec.js",
+              "line": 221,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable in dashboard list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-2b016997d9ad61245592",
+              "file": "deliverable-flow.spec.js",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "should handle brand customization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-7feb0907f1917bfc7278",
+              "file": "deliverable-flow.spec.js",
+              "line": 246,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-c54ea346cdc0b949eb9d",
+              "file": "deliverable-flow.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Mobile Safari",
+                  "projectName": "Mobile Safari",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-640bfc8ab261a0b968fe",
+              "file": "deliverable-flow.spec.js",
+              "line": 297,
+              "column": 7
+            },
+            {
+              "title": "should navigate to new deliverable page from dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-ff90751d3418cf1117d5",
+              "file": "deliverable-flow.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should display new deliverable form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-800187afe974a719bf5b",
+              "file": "deliverable-flow.spec.js",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload and deliverable creation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-aef832be4960c333015d",
+              "file": "deliverable-flow.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-2fb692154700087af99f",
+              "file": "deliverable-flow.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-09ec67bb2d5694ff7cac",
+              "file": "deliverable-flow.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "should generate deliverable from text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-8d81e0fbf77e0e5e1203",
+              "file": "deliverable-flow.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should display deliverable content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-a22166277ed32ff64c8a",
+              "file": "deliverable-flow.spec.js",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "should handle PDF download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-5ccf42a5cec208b4d1cf",
+              "file": "deliverable-flow.spec.js",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "should navigate back to dashboard from deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-92fafec24c0adf9a08b2",
+              "file": "deliverable-flow.spec.js",
+              "line": 221,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable in dashboard list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-905b85afad2033cdf375",
+              "file": "deliverable-flow.spec.js",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "should handle brand customization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-095d9ed140c055cdc263",
+              "file": "deliverable-flow.spec.js",
+              "line": 246,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-ffd609885a8eabdcc0c7",
+              "file": "deliverable-flow.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Microsoft Edge",
+                  "projectName": "Microsoft Edge",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-d20fe5f88a67e954e988",
+              "file": "deliverable-flow.spec.js",
+              "line": 297,
+              "column": 7
+            },
+            {
+              "title": "should navigate to new deliverable page from dashboard",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-6af8f84ae560129b6e8e",
+              "file": "deliverable-flow.spec.js",
+              "line": 50,
+              "column": 7
+            },
+            {
+              "title": "should display new deliverable form",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-61359386d3b47f127db3",
+              "file": "deliverable-flow.spec.js",
+              "line": 59,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload and deliverable creation",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-2263c05c65db208a1fa3",
+              "file": "deliverable-flow.spec.js",
+              "line": 69,
+              "column": 7
+            },
+            {
+              "title": "should handle file upload errors",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-af11058968465ce6cf73",
+              "file": "deliverable-flow.spec.js",
+              "line": 109,
+              "column": 7
+            },
+            {
+              "title": "should validate required fields",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-bdd8252cc2538ccd579d",
+              "file": "deliverable-flow.spec.js",
+              "line": 135,
+              "column": 7
+            },
+            {
+              "title": "should generate deliverable from text",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-51f363451320f2007606",
+              "file": "deliverable-flow.spec.js",
+              "line": 146,
+              "column": 7
+            },
+            {
+              "title": "should display deliverable content",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-ea188a2f83b077fca05f",
+              "file": "deliverable-flow.spec.js",
+              "line": 173,
+              "column": 7
+            },
+            {
+              "title": "should handle PDF download",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-0bc1953b27e4578093d6",
+              "file": "deliverable-flow.spec.js",
+              "line": 189,
+              "column": 7
+            },
+            {
+              "title": "should navigate back to dashboard from deliverable",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-35cdff15537c9f0312fa",
+              "file": "deliverable-flow.spec.js",
+              "line": 221,
+              "column": 7
+            },
+            {
+              "title": "should show deliverable in dashboard list",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-5b9bf7aeb212aa64d224",
+              "file": "deliverable-flow.spec.js",
+              "line": 238,
+              "column": 7
+            },
+            {
+              "title": "should handle brand customization",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-1323497b8783ed1f721d",
+              "file": "deliverable-flow.spec.js",
+              "line": 246,
+              "column": 7
+            },
+            {
+              "title": "should be responsive on mobile",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-65dc8f735326547f3c69",
+              "file": "deliverable-flow.spec.js",
+              "line": 282,
+              "column": 7
+            },
+            {
+              "title": "should handle loading states",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "Google Chrome",
+                  "projectName": "Google Chrome",
+                  "results": [],
+                  "status": "skipped"
+                }
+              ],
+              "id": "e29b03ad9cdd513ec854-735b10994a95c7de5e81",
+              "file": "deliverable-flow.spec.js",
+              "line": 297,
+              "column": 7
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2025-09-27T15:55:48.563Z",
+    "duration": 77.25799999999998,
+    "expected": 0,
+    "skipped": 273,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
